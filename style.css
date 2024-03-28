@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  background-image: linear-gradient(#0000b8, #ffffff);
+  height: 150px;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+body  {
+  background-image: url("https://wallpaper.dog/large/972862.jpg");
+  background-size:100%;
+  color: white;
+}
+
+div {
+  width: 500px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-color: black;
+}
+
+div:hover{
+  width: 1000px;
+  opacity: 0.4;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+img
+{
+    box-shadow: 0px 0px 5px #fff;
+}
+
+img:hover{
+  width: 1000px;
+}
+
+.one:hover{color: blue;}
+
+.two:hover{color: black;}
+
+a{
+  color: white;
+  text-decoration: underline overline;
+}
